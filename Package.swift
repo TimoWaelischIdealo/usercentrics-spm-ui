@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UsercentricsUI",
-            url: "https://bitbucket.org/usercentricscode/usercentrics-spm-ui/downloads/UsercentricsUI.xcframework.zip"
+            url: "https://bitbucket.org/usercentricscode/usercentrics-spm-ui/downloads/UsercentricsUI.xcframework.zip",
+            checksum: "769d39bbfb9f2679d4413237467fece522dcb91f5ed6d0ddbd141f70e8ecfcad"
         )
     ]
 )
