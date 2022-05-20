@@ -13,13 +13,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://bitbucket.org/usercentricscode/usercentrics-spm-sdk", from: "2.5.2")
+        .package(url: "https://bitbucket.org/usercentricscode/usercentrics-spm-sdk", from: "2.5.3")
     ],
     targets: [
         .binaryTarget(
             name: "UsercentricsUI",
-            url: "https://bitbucket.org/usercentricscode/usercentrics-spm-ui/downloads/UsercentricsUI-2.5.2.xcframework.zip",
-            checksum: "157fe5b216ea62d0d1434723002e2d6e9d9367514db3424f8b40e1b3e502f18a"
+            url: "https://bitbucket.org/usercentricscode/usercentrics-spm-ui/downloads/UsercentricsUI-2.5.3.xcframework.zip",
+            checksum: "77dbcb776838a4d077e6b0c51f6459f008154ea54d0536ba1c1bdb59e9deed88"
         )
     ]
 )
