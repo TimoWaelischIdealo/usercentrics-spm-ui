@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "UsercentricsUIFramework",
             url: "https://bitbucket.org/usercentricscode/usercentrics-spm-ui/downloads/UsercentricsUI-2.24.2.xcframework.zip",
-            checksum: "846f4249ae3b70e358fd40ab0e81ca7a268f0b083b724b182c9bb0298a5926a3"
+            checksum: "1ff0fb9ee41b7d8296bae2e85b1a2b41f5cbffb6989d2d7087638aa4c4a05ec9"
         ),
         .target(
             name: "UsercentricsUI",
