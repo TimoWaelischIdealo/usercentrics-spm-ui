@@ -29,7 +29,8 @@ let package = Package(
         ),
         .target(
             name: "UsercentricsUI",
-            dependencies: [.product(name: "Usercentrics", package: "usercentrics-spm-sdk"), "UsercentricsUIFramework"]
+            dependencies: [.product(name: "Usercentrics", package: "usercentrics-spm-sdk"), "UsercentricsUIFramework"],
+            publicHeadersPath: "include"
         ),
     ]
 )
